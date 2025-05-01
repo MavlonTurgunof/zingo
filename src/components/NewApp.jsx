@@ -16,7 +16,7 @@ function NewApp() {
             <span>Zingo ilovasi</span>
           </Button>
 
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             <div>
               <img src="/img/app-screen-1.svg" alt="image" />
             </div>

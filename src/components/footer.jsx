@@ -9,15 +9,15 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FD5F72] text-white px-6 py-6">
+    <footer className="bg-[#FD5F72] text-white md:px-6 py-6">
       <Container>
-        <div className=" flex flex-row justify-between border-b-2 border-white mb-5 pb-5">
-          <div className="w-[42%] flex flex-col justify-between">
-            <div>
-              <div className="flex items-center gap-2 text-3xl font-bold mb-4">
+        <div className=" flex flex-col md:flex-row md:justify-between border-b-2 border-white mb-5 pb-5 max-md:gap-10">
+          <div className="w-full md:w-[42%] flex flex-col justify-center items-center md:justify-between">
+            <div className="flex flex-col items-center">
+              <div className="  mb-4">
                 <img src="/img/logo-filled.svg" alt="logo" />
               </div>
-              <p className="text-[15px]">
+              <p className="text-[15px] md:text-start text-center">
                 Foydalanuvchilarni til darajasi bo‘yicha bog‘lab, haqiqiy
                 muloqot orqali til o‘rganish imkonini beruvchi platforma.
               </p>
@@ -33,8 +33,9 @@ export default function Footer() {
               </div>
             </div>
           </div>
+
           <div className="">
-            <div className="flex flex-row gap-10 max-w-full">
+            <div className="flex md:flex-row flex-row-reverse gap-10 max-w-full">
               <div>
                 <h3 className="text-xl font-bold mb-4">KONTAKTLAR</h3>
                 <p>Telefon raqam</p>
@@ -55,7 +56,7 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="flex mt-10 gap-5">
+            <div className="flex md:flex-row flex-col mt-10 gap-5">
               <button className="flex bg-[#FDF6F7] px-3 py-2 rounded-full text-black">
                 <img src="/img/playmarket-colored.svg" alt="playmarket" />
                 <div className="flex flex-col">
@@ -74,7 +75,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="text-center text-sm flex justify-between mx-60">
+        <div className="text-center text-sm flex md:flex-row flex-col md:justify-between md:mx-60">
           <p>2025</p>
           <p className="mt-2">Barcha huquqlar himoyalangan</p>
         </div>

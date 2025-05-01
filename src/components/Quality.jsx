@@ -2,15 +2,15 @@ import React from "react";
 
 function Quality() {
   return (
-    <div className="mb-20" data-aos="fade-up">
-      <div className="text-center mx-100 mb-6">
+    <div className="mb-20 max-md:px-2" data-aos="fade-up">
+      <div className="text-center md:mx-100 mb-6">
         <h1 className="text-[44px] font-semibold mb-6">Maxsus Xususiyatlar</h1>
         <p className="text-[20px] font-medium text-gray-500 leading-7">
           Zingo sizning til bilimingizni, gaplashish mahoratingizni va
           muomalangizni hisobga olib, eng mos keladigan partnerlarni topadi.
         </p>
       </div>
-      <div className="grid grid-cols-2 gap-5 mx-80 gap-y-15">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:mx-80 gap-y-15">
         <div className="flex flex-col bg-[url('/img/dotted-background.svg')]  justify-center items-center">
           <img src="/img/badge.svg" alt="" className="h-[169px] w-[168px]" />
           <div>

@@ -9,12 +9,12 @@ function Stats() {
       data-aos="fade-up"
     >
       <Container>
-        <div className="flex flex-row justify-center gap-x-5  flex-wrap gap-y-5 items-center py-5">
+        <div className="flex md:flex-row flex-col justify-center gap-x-5  md:flex-wrap gap-y-5 items-center py-5">
           <div className="flex justify-center items-center flex-col flex-1">
             <div className="countup-wrap text-[#FF556E] text-[76px] font-semibold">
               <CountUp end={231} duration={3} />+
             </div>
-            <p className="text-[28px] text-center whitespace-nowrap">
+            <p className="text-[27px] md:text-[28px] text-center whitespace-nowrap">
               Mamnun foydalanuvchilar
             </p>
           </div>
@@ -22,27 +22,33 @@ function Stats() {
             <div className="countup-wrap text-[#FF556E] text-[76px] font-semibold">
               <CountUp end={159} duration={3} />+
             </div>
-            <p className="text-[28px] whitespace-nowrap">Ijobiy baholar</p>
+            <p className="text-[27px] md:text-[28px] whitespace-nowrap">
+              Ijobiy baholar
+            </p>
           </div>
           <div className="flex justify-center items-center flex-col flex-1">
             <div className="countup-wrap text-[#FF556E] text-[76px] font-semibold">
               <CountUp end={385} duration={3} />+
             </div>
-            <p className="text-[28px] whitespace-nowrap">
+            <p className="text-[27px] md:text-[28px] whitespace-nowrap">
               Yaxshilangan suhbatlar
             </p>
           </div>
-          <div>
+          <div className="flex justify-center items-center flex-col flex-1">
             <div className="countup-wrap text-[#FF556E] text-[76px] font-semibold">
               <CountUp end={127} duration={3} />+
             </div>
-            <p className="text-[28px] text-center">O'rganish tajribalari</p>
+            <p className="text-[27px] md:text-[28px] text-center whitespace-nowrap">
+              O'rganish tajribalari
+            </p>
           </div>
-          <div>
+          <div className="flex justify-center items-center flex-col flex-1">
             <div className="countup-wrap text-[#FF556E] text-[76px] font-semibold">
               <CountUp end={211} duration={3} />+
             </div>
-            <p className="text-[28px] whitespace-nowrap">Uygun juftliklar</p>
+            <p className="text-[27px] md:text-[28px] whitespace-nowrap">
+              Uygun juftliklar
+            </p>
           </div>
         </div>
       </Container>
