@@ -9,7 +9,7 @@ function Home() {
     >
       <div
         className="container mx-auto w-full md:w-[50%] md:pt-[40px] pt-[20px]"
-        // data-aos="zoom-in-down"
+        data-aos="zoom-in-down"
       >
         <h1 className="text-center text-[35px] md:text-[45px] font-semibold leading-10 md:leading-14 pb-5">
           Til o‘rganishni <br /> yangi bosqichga ko‘taring!
