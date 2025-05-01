@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#FD5F72] text-white md:px-6 py-6">
       <Container>
-        <div className=" flex flex-col md:flex-row md:justify-between border-b-2 border-white mb-5 pb-5 max-md:gap-10">
+        <div className=" flex flex-col md:flex-row md:justify-between border-b-2 border-white mb-5 pb-5 max-md:gap-10 px-20">
           <div className="w-full md:w-[42%] flex flex-col max-md:justify-center max-md:items-center md:justify-between">
             <div className="flex flex-col max-md:items-center">
               <div className="  mb-4">
